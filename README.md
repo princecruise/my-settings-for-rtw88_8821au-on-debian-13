@@ -8,6 +8,7 @@ This is because starting Linux kernel 6.14, there's an updated in-kernel driver 
 
 
 The kernel update was not done using standard custom kernel compilation steps but using Debians's own suggested methods of using backports.
+
 STEPS -
 
 # Add backports to sources if not already present-
