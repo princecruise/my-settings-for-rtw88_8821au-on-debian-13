@@ -1,8 +1,8 @@
 # my-settings-for-rtw88_8821au-on-debian-13
 
-#Fixing my woes with TP-Link Archer T2U plus on Linux (rtw88_8821au) - SSH from My Windows laptop to Debian host was all janky and jittery. 
-And a quick diagnosis showed me the wifi network latency from the debian host was shooting very high intermittently due to the current driver
-8821au simply being just inefficient.
+# Fixing my woes with TP-Link Archer T2U plus on Linux (rtw88_8821au) - SSH from My Windows laptop to Debian host was all janky and jittery. 
+# And a quick diagnosis showed me the wifi network latency from the debian host was shooting very high intermittently due to the current driver
+# 8821au simply being just inefficient.
 
 Update Debian 13's default 6.12 kernel to the latest one available in trixie backports - 6.17 at the time of writing.
 
