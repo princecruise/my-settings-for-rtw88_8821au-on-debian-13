@@ -51,7 +51,7 @@ usbcore               425984  6 xhci_hcd,usbhid,rtw88_usb,rtw88_8821au,xhci_pci,
 
 # Now the most important part which fixed my issue -
 # Create the modprobe file if it doesn't already exist in /etc/modprobe.d-
-touch /etc/modprobe/rtw88.conf
+touch /etc/modprobe.d/rtw88.conf
 
 And add these below options-
 
